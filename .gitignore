@@ -1,0 +1,59 @@
+# Anchor / Solana
+.anchor
+target/
+**/*.rs.bk
+test-ledger/
+.surfpool/
+
+# Node.js
+node_modules/
+.yarn/
+yarn-error.log
+npm-debug.log*
+package-lock.json
+
+# TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+*.key
+id.json
+deploy-keypair.json
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Build artifacts
+*.so
+*.dylib
+*.dll
